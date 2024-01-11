@@ -1,0 +1,180 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+
+}
+
+::selection {
+
+    color: blue;
+    cursor: default;
+}
+
+.fullNavBar {
+    height: 100vh;
+    width: 235px;
+    background-color: #333a56;
+    position: fixed;
+    display: none;
+}
+
+
+
+.addNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    margin-top: 8px;
+    width: 190px;
+}
+
+.allLinks {
+    text-decoration: none;
+    color: #d3d4da;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: Dosis, sans-serif;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: -6px;
+    margin-left: 23px;
+}
+
+.icon span {
+    font-size: 1.1rem;
+}
+
+.navLinks {
+    margin-top: 10px;
+}
+
+.allLinks:hover {
+    color: #3b6774;
+    transition: all ease 0.3s;
+}
+
+
+
+.footer {
+    font-size: 0.75rem;
+    padding: 12px;
+    color: #d3d4da;
+    border-top: solid rgb(84, 80, 80) 1px;
+    font-weight: 500;
+}
+
+.footerTop {
+    background-color: #efefef;
+    align-items: center;
+    display: flex;
+    padding: 5px 25px;
+    justify-content: space-between;
+    box-shadow: 0 0 15px 0 #ccc;
+}
+
+.addnew {
+    margin-left: 235px;
+
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #565c73;
+}
+
+.userL {
+    color: #7d7e83;
+}
+
+.aboutUser {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about p {
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.about {
+    margin-top: -10px;
+}
+
+/* ====================global css file =================== */
+
+.alart {
+    width: 90%;
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.alartNotice {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+
+.smallwidth {
+    margin-left: 235px;
+    width: 80%;
+}
+
+.mesage {
+    font-size: 14px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+}
+
+.iconone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+
+}
+
+.lower {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px;
+
+}
